@@ -1,0 +1,14 @@
+version: '3.3'
+services:
+  nginx:
+    image: nginx
+    container_name: nginx
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./sites-enabled:/etc/nginx/sites-enabled:ro
+    environment:
+      - NGINX_HOST=localhost
+      - NGINX_PORT=80
+    ports:
+      - 80:80
+      - 443:443
