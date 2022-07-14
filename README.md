@@ -146,7 +146,7 @@ http://mysite.localhost/login
 http://sub.mysite.localhost
 ```
 
-### 결론
+## 결론
 - 생각보다 너무 간단해서 ㅎㅎ
 - 당연하게도 도메인이 같은 서브도메인끼리만 가능합니다.
 - 도메인이 완전히 달라진다면 그때는 OAuth나 SAML같은 SSO 방법을 사용해야 합니다.
