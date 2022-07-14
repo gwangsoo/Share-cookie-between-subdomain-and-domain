@@ -1,4 +1,4 @@
-# 도메인과 서브도메인 간 세션 및 쿠키 공유 방법 ()
+# 도메인과 서브도메인 간 세션 및 쿠키 공유 방법
 Share cookie between subdomain and domain
 
 - 도메인과 서브도메인 사이에 Cookie 기반 세션을 공유하는 방법입니다.
